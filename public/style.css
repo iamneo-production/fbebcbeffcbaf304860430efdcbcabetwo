@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada:wght@400;500;600;700&display=swap");
+
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2018/03/17/19/36/connection-3234929_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: "Radio Canada", sans-serif;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+}
+
+header {
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 35px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.bt {
+    width: 75px;
+    height: 75px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.bt:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.bt:disabled {
+    color: black;
+    cursor: no-drop;
+}
+
+.result-container {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px solid #fff;
+    max-width: 200px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.result {
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-size: 25px;
+}
+
+.reset {
+    text-align: center;
+}
+
+#reset-button {
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#reset-button:hover {
+    background-color: black;
+    color: #fff;
+}
